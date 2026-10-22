@@ -26,7 +26,7 @@ export default function About() {
             </p>
 
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
-              {t.about.cards.map((card:any, i) => {
+              {t.about.cards.map((card: any, i) => {
                 const Icon = ICONS[i] ?? MapPin;
                 return (
                   <div
